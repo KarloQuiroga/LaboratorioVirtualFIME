@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+html,
+body {
+    background-color: #327253;
+    min-height: 100%;
+}
+
+/*Del n px para abajo se aplican estas reglas 
+*/
+@media (max-width: 760px) {
+    div.Facultad {
+        visibility: hidden;
+        position: fixed;
+        overflow: hidden;
+    }
+
+    div.main {
+        display: flex;
+        align-items: center;
+    }
+
+    div.Inicio {
+        margin: 10%;
+    }
+}
+
+
+section.Titulo {
+    font-family: 'Keania One', sans-serif;
+}
+
+section.Content {
+    font-family: 'Teko', sans-serif;
+}
+
+input {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2;
+    border-color: #327253;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* Estilo cuando el campo de entrada es válido (por ejemplo, después de ingresar texto) */
+input:valid {
+    background-color: white;
+    /* Cambia el fondo cuando es válido */
+}
+
+/* Estilo cuando el campo de entrada es inválido (por ejemplo, después de intentar enviar un formulario con campos obligatorios vacíos) */
+.invalid::placeholder {
+    color: red;
+    background-color: #ffcccc;
+    border-color: #ffcccc;
+    /* Cambia el fondo cuando es inválido */
+}
+
+.form-check-input:checked {
+    background-color: #327253;
+    border-color: #327253;
+
+}
+
+input.Login {
+    background-color: #327253;
+}
+
+.form-check-input {
+    background-color: white;
+}
+
+button {
+    text-decoration: none;
+    background-color: #327253;
+}
+
+input[type="radio"]:focus {
+    outline: none;
+    /* Cambia el color y grosor de la sombra al hacer clic en el checkbox */
+}
+
+a {
+    color: #327253;
+}

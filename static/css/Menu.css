@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
+
+/*Del n px para abajo se aplican estas reglas 
+*/
+@media (max-width: 992px) {
+    li.nav-item a {
+        font-size: 1.5rem;
+        color: white;
+        font-family: 'Keania One', sans-serif;
+        display: block;
+        text-align: right;
+        padding-right: 1rem;
+    }
+
+    img.Logo {
+        height: 160px;
+    }
+}
+
+
+section.Info {
+    font-family: 'Averia Serif Libre', serif;
+    font-size: 1rem;
+}
+
+
+a.Perfil {
+    width: 13rem;
+}
+
+div.Contenedor {
+    z-index: 10;
+}
+
+/*Del n px para arriba se aplican estas reglas 
+*/
+@media (min-width: 992px) {
+
+    li.nav-item a {
+        font-size: 1.4rem;
+        font-family: 'Keania One', sans-serif;
+        color: white;
+        font-weight: bold;
+        margin-left: 5rem;
+    }
+
+
+    .collapse {
+        display: flex;
+        justify-content: end;
+        margin-right: 1rem;
+    }
+
+    img.Logo {
+        height: 150px;
+    }
+
+}
+
+
+.navbar-nav .nav-link.active {
+    color: black;
+}
+
+
+
+
+body {
+    background-color: #327253;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav div.container-fluid {
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-color: white;
+}
+
+a.nav-link {
+    font-size: large;
+}
+
+footer {
+    margin-top: auto;
+}
+
+h1 {
+    color: white;
+    font-family: 'Keania One', sans-serif;
+}
+
+.back-to-top {
+    box-sizing: content-box;
+    position: fixed;
+    background-color: white;
+    color: #327253 !important;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 2.5;
+    text-decoration: none;
+    padding-bottom: 0.1rem;
+    font-size: 16px;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    -moz-transition: background .5s;
+    -webkit-transition: background .5s;
+    transition: background .5s;
+}
+
+.back-to-top:hover {
+    color: #327253;
+}

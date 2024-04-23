@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+.card {
+    background-color: #fff;
+    padding: .4em;
+    margin: auto;
+}
+
+.card a {
+    text-decoration: none
+}
+
+div.Practica {
+    padding-top: 1.1rem;
+    font-family: 'Teko', sans-serif;
+}
+
+div.Laboratorio {
+    padding-top: 1.1rem;
+    font-family: 'Teko', sans-serif;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #b7e4c5;
+}
+
+div.Lab .image {
+    height: 250px;
+}
+
+div.image img {
+    width: 100%;
+    /* establece el ancho máximo de la imagen al 100% del contenedor */
+    height: 100%;
+    /* ajusta la altura automáticamente de acuerdo con el ancho */
+
+    /* asegúrate de que la imagen no se salga del contenedor */
+    display: block;
+}
+
+.title {
+    color: #111827;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: bolder;
+}
+
+.desc {
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+div.card:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
+
+
+table.table {
+    font-family: 'Averia Serif Libre', serif;
+    font-size: 1.1rem;
+}
+
+thead {
+    background-color: #059669;
+}
+
+tbody tr {
+    border-radius: 50%;
+    border-top: #059669 0.2rem solid;
+}
+
+tbody {
+    background-color: white;
+}
+
+
+
+/*Del n px para abajo se aplican estas reglas 
+*/
+@media (max-width: 768px) {
+    td svg {
+        width: 50%;
+        height: 50%;
+    }
+
+    table.table {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    table.table {
+        font-size: 0.8rem;
+    }
+}

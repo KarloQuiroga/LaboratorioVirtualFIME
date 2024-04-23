@@ -1,0 +1,130 @@
+td {
+    font-size: 1.5rem;
+}
+
+.card.position-absolute {
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    border-radius: 0.5rem;
+    width: 50rem;
+    height: 25rem;
+    box-shadow: -5px 10px 10px -5px rgba(0, 0, 0, 0.4), 5px -10px 10px -5px rgba(0, 0, 0, 0.4);
+    background-color: white;
+}
+
+.dismiss {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: black;
+    border: 2px solid #D1D5DB;
+    font-size: 1rem;
+    font-weight: 300;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    transition: .3s ease;
+}
+
+.dismiss:hover {
+    background-color: #ee0d0d;
+    border: 2px solid #ee0d0d;
+    color: #fff;
+}
+
+
+
+
+section.Content {
+    font-family: 'Teko', sans-serif;
+}
+
+input {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2;
+    border-color: #327253;
+    background-color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+.form-check-input:checked {
+    background-color: #327253;
+    border-color: #327253;
+
+}
+
+input.Login {
+    background-color: #327253;
+}
+
+.form-check-input {
+    background-color: white;
+}
+
+button {
+    text-decoration: none;
+    background-color: #327253;
+}
+
+input[type="radio"]:focus {
+    outline: none;
+    /* Cambia el color y grosor de la sombra al hacer clic en el checkbox */
+}
+
+a {
+    color: #327253;
+}
+
+
+/* body > div:not(:first-child){
+    animation: fadeInDown 1s;
+} */
+
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+div#Alert{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#Alert input[type="text"]{
+    width: 100%;
+}
+
+section.modal-courses{
+    display: flex;
+    height: 40%;
+    flex-flow: wrap column;
+    justify-content: center;
+}
+
+section.modal-courses form{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
